@@ -25,3 +25,7 @@ python app.py
 2. Then load the JS visualizations by copying the full path to `index.html` to the URL box of your chrome browser. 
 
 *Note: This type of example uses a local server, so it cannot be run from GitHub Pages.*
+
+## Motivation
+
+If you comment out the lines in app.py that use `CORS` and `cross-origin`, you will receive CORS errors in the browser when you try to load `index.html`. The point of this example is to show one way to avoid those.
