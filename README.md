@@ -20,7 +20,7 @@ To run the example:
 python app.py
 ```
 
-To verify that the Flask server is running, you can navigate to `http://127.0.0.1:5000/api/v1.0/piechart_data` in a web browser and confirm that the JSON for the visualization is returned. 
+- To verify that the Flask server is running, you can navigate to `http://127.0.0.1:5000/api/v1.0/piechart_data` in a web browser and confirm that the JSON for the visualization is returned. 
 
 2. Then load the JS visualizations by copying the full path to `index.html` to the URL box of your chrome browser. 
 
